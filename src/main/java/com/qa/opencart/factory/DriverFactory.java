@@ -45,7 +45,7 @@ public class DriverFactory {
 		}
 		else
 		{
-			System.out.println("supplied the wrong browser name"+browsername);
+			System.out.println("supplied the wrong browser name..please provide correct browser name:"+browsername);
 		}
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
