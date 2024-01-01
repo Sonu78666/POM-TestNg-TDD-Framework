@@ -48,7 +48,7 @@ public class AccountPageTest extends BaseTest {
 	public void AccPageValueTest()
 	{
 		List<String>list=ap.getTextAccountHeader();
-		System.out.println("Actual array list"+list);
+		System.out.println("Actual array list is "+list);
 		//List<String> Expectedlist=AppConstants.EXPECTED_ACCOUNT_PAGE_HEADER_LIST;
 		Assert.assertEquals(list, AppConstants.EXPECTED_ACCOUNT_PAGE_HEADER_LIST);
 	}
